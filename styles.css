@@ -1,0 +1,28 @@
+/* Style for the conference website */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1634c8;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1, h2 {
+    color: #ffcc00; /* Golden accent color */
+}
+
+a {
+    color: #2544e3;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffcc00;
+}
