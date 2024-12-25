@@ -1,0 +1,61 @@
+/* Updated styles.css for Cybersécurité et IA conference theme */
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: #2544e3;
+    text-decoration: none;
+    text-underline-offset: 0.2em;
+}
+a:hover {
+    color: #ff00ff;
+    text-decoration: underline;
+}
+header {
+    background-color: #1634c8;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    font-size: 2rem;
+}
+footer {
+    background-color: #2544e3;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    font-size: 1rem;
+}
+button, .wp-block-button__link {
+    background-color: #2544e3;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+button:hover, .wp-block-button__link:hover {
+    background-color: #ff00ff;
+    border-color: #2544e3;
+}
+.section {
+    padding: 60px 20px;
+}
+.section-title {
+    font-size: 2.5rem;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.section-content {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
